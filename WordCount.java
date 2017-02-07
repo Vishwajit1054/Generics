@@ -17,8 +17,8 @@ public class WordCount {
 			if (map.get(string) == null) {
 				map.put(string, 1);
 			} else {
-				int val=(int) map.get(string) + 1;
-				map.put( string, val);
+				int value=(int) map.get(string) + 1;
+				map.put( string, value);
 			}
 		}
 		return map;
